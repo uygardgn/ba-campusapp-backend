@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <LangVersion>preview</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>preview</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Areas\TrainerArea\**" />
+    <Content Remove="Areas\TrainerArea\**" />
+    <EmbeddedResource Remove="Areas\TrainerArea\**" />
+    <None Remove="Areas\TrainerArea\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Areas\Student\Controllers\StudentAccountController.cs" />
+    <Compile Remove="Areas\Student\Controllers\ValuesController.cs" />
+    <Compile Remove="Areas\Trainer\Controllers\TrainerAccountController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Program.cs~RF9a7ac3a.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="7.0.9" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.8" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\documents\Homework\DeletedHomework\" />
+    <Folder Include="wwwroot\documents\StudentHomework\DeletedStudentHomework\" />
+    <Folder Include="wwwroot\documents\SupplementaryResources\DeletedSupplementaryResources\" />
+    <Folder Include="wwwroot\documents\Homework\" />
+    <Folder Include="wwwroot\documents\StudentHomework\" />
+    <Folder Include="wwwroot\documents\SupplementaryResources\Videos\" />
+    <Folder Include="wwwroot\documents\TempVideos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BACampusApp.Business\BACampusApp.Business.csproj" />
+    <ProjectReference Include="..\BACampusApp.DataAccess.EFCore\BACampusApp.DataAccess.EFCore.csproj" />
+    <ProjectReference Include="..\BACampusApp.Entities.Configurations\BACampusApp.Entities.Configurations.csproj" />
+  </ItemGroup>
+
+</Project>

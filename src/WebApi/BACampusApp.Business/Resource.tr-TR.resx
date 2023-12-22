@@ -1,0 +1,909 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActivityStateLog_Has_Not_Found" xml:space="preserve">
+    <value>Aktivite durumu bulunamadı!</value>
+  </data>
+  <data name="Activity_Status_Adding_Fail" xml:space="preserve">
+    <value>Aktivite durumu eklenemedi !</value>
+  </data>
+  <data name="Adding_Failed" xml:space="preserve">
+    <value>Ekleme başarısız !</value>
+  </data>
+  <data name="Adding_Succeed" xml:space="preserve">
+    <value>Ekleme başarılı !</value>
+  </data>
+  <data name="Admin_Already_Exist" xml:space="preserve">
+    <value>Admin zaten mevcut !</value>
+  </data>
+  <data name="Admin_Country_Code_Control" xml:space="preserve">
+    <value>Ülke Kodu hatalı girildi !</value>
+  </data>
+  <data name="Admin_Country_Code_Length" xml:space="preserve">
+    <value>Ülke Kodu en fazla 2 haneli olabilir !</value>
+  </data>
+  <data name="Admin_Date_Of_Birth_GreaterThan" xml:space="preserve">
+    <value>Lütfen geçerli bir doğum tarihi giriniz. 65 yaşından büyük olamazsınız !</value>
+  </data>
+  <data name="Admin_Date_Of_Birth_LessThan" xml:space="preserve">
+    <value>Lütfen geçerli bir doğum tarihi giriniz. 18 yaşından küçük olamazsınız !</value>
+  </data>
+  <data name="Admin_Email_Control" xml:space="preserve">
+    <value>Lütfen geçerli bir e-mail adresi giriniz !</value>
+  </data>
+  <data name="Admin_Email_Not_Empty" xml:space="preserve">
+    <value>Mail adresi girmelisiniz !</value>
+  </data>
+  <data name="Admin_FirstName_Length" xml:space="preserve">
+    <value>Lütfen isim alanını 2 ile 256 karakter arasında giriniz !</value>
+  </data>
+  <data name="Admin_FirstName_Matches" xml:space="preserve">
+    <value>Lütfen isim alanına sadece harf giriniz !</value>
+  </data>
+  <data name="Admin_FirstName_Not_Null" xml:space="preserve">
+    <value>İsim alanını girmediniz !</value>
+  </data>
+  <data name="Admin_Gender_Control" xml:space="preserve">
+    <value>Geçerli bir cinsiyet değeri giriniz !</value>
+  </data>
+  <data name="Admin_Has_Not_Found" xml:space="preserve">
+    <value>Admin bulunamadı !</value>
+  </data>
+  <data name="Admin_LastName_Length" xml:space="preserve">
+    <value>Lütfen soyisim alanını 2 ile 256 karakter arasında giriniz !</value>
+  </data>
+  <data name="Admin_LastName_Matches" xml:space="preserve">
+    <value>Lütfen soyisim alanına sadece harf giriniz !</value>
+  </data>
+  <data name="Admin_LastName_Not_Null" xml:space="preserve">
+    <value>Soyisim alanını girmediniz !</value>
+  </data>
+  <data name="Admin_Phone_Number_Length" xml:space="preserve">
+    <value>Lütfen en az 7 haneli bir telefon numarası giriniz !</value>
+  </data>
+  <data name="Admin_Phone_Number_Matches" xml:space="preserve">
+    <value>Lütfen doğru bir telefon numarası giriniz !</value>
+  </data>
+  <data name="Already_Adding_Failed" xml:space="preserve">
+    <value>Bu veri zaten var !</value>
+  </data>
+  <data name="Branch_Already_Exists" xml:space="preserve">
+    <value>Bu şube zaten mevcut !</value>
+  </data>
+  <data name="Branch_Not_Found" xml:space="preserve">
+    <value>Şube bulunamadı !</value>
+  </data>
+  <data name="Cannot_Be_One_Of_The_Last_Three_Passwords" xml:space="preserve">
+    <value>Şifre son 3 şifreden biri olamaz !</value>
+  </data>
+  <data name="Casting_Is_Not_Completed" xml:space="preserve">
+    <value>Casting tamamlanamadı !</value>
+  </data>
+  <data name="Category_Has_Not_Found" xml:space="preserve">
+    <value>Kategori bulunamadı !</value>
+  </data>
+  <data name="Category_Length" xml:space="preserve">
+    <value>Lütfen kategori alanını 2 ile 35 karakter arasında giriniz !</value>
+  </data>
+  <data name="Category_Matches" xml:space="preserve">
+    <value>Lütfen özel karakterler kullanmayınız !</value>
+  </data>
+  <data name="Category_Not_Empty" xml:space="preserve">
+    <value>Kategori adını girmediniz !</value>
+  </data>
+  <data name="ChangePassword_Email_Control" xml:space="preserve">
+    <value>Lütfen geçerli bir e-mail adresi giriniz !</value>
+  </data>
+  <data name="ChangePassword_Email_Not_Empty" xml:space="preserve">
+    <value>Mail adresi girmelisiniz !</value>
+  </data>
+  <data name="ChangePassword_New_Password_Again_Equal" xml:space="preserve">
+    <value>Şifreler eşleşmiyor !</value>
+  </data>
+  <data name="ChangePassword_New_Password_Again_Not_Empty" xml:space="preserve">
+    <value>Yeni Şifre Tekrarını girmelisiniz !</value>
+  </data>
+  <data name="ChangePassword_New_Password_Not_Empty" xml:space="preserve">
+    <value>Yeni Şifreyi girmelisiniz !</value>
+  </data>
+  <data name="ChangePassword_Old_Password_Not_Empty" xml:space="preserve">
+    <value>Eski Şifreyi Girmelisiniz !</value>
+  </data>
+  <data name="Classroom_Activity_Has_Not_Changed" xml:space="preserve">
+    <value>Sınıf aktivitesi değişmedi !</value>
+  </data>
+  <data name="Classroom_Already_Exists" xml:space="preserve">
+    <value>Bu sınıf zaten mevcut !</value>
+  </data>
+  <data name="Classroom_Closed_Date_Control" xml:space="preserve">
+    <value>Sınıf kapanma tarihi ileri bir tarih olmalıdır !</value>
+  </data>
+  <data name="Classroom_Closed_Date_Not_Empty" xml:space="preserve">
+    <value>Sınıf kapanma tarihi boş olamaz !</value>
+  </data>
+  <data name="Classroom_Education_Id_Not_Empty" xml:space="preserve">
+    <value>Eğitim alanı boş olamaz !</value>
+  </data>
+  <data name="Classroom_Has_Not_Found" xml:space="preserve">
+    <value>Sınıf bulunamadı !</value>
+  </data>
+  <data name="Classroom_Id_Not_Empty" xml:space="preserve">
+    <value>Id bilgisi boş bırakılamaz !</value>
+  </data>
+  <data name="Classroom_Is_Not_Active" xml:space="preserve">
+    <value>Bu sınıf aktif değil !</value>
+  </data>
+  <data name="Classroom_Name_Length" xml:space="preserve">
+    <value>Sınıf adı 2 karakterden az 50 karakterden fazla olamaz !</value>
+  </data>
+  <data name="Classroom_Name_Not_Empty" xml:space="preserve">
+    <value>Sınıf adı boş olamaz !</value>
+  </data>
+  <data name="Classroom_Open_Date_First_Control" xml:space="preserve">
+    <value>Sınıf başlangıç tarihi ileri bir tarih olmalıdır !</value>
+  </data>
+  <data name="Classroom_Open_Date_Not_Empty" xml:space="preserve">
+    <value>Sınıf açılma tarihi boş olamaz !</value>
+  </data>
+  <data name="Classroom_Open_Date_Second_Control" xml:space="preserve">
+    <value>Sınıf açılış tarihi bitiş tarihinden sonra olamaz !</value>
+  </data>
+  <data name="Classroom_Student_Activity_Status_Has_Not_Changed" xml:space="preserve">
+    <value>Sınıfa kayıtlı öğrenci aktivitesi değişmedi !</value>
+  </data>
+  <data name="Classroom_Student_Classroom_Id_Not_Empty" xml:space="preserve">
+    <value>Sınıf alanı boş bırakılamaz !</value>
+  </data>
+  <data name="Classroom_Student_End_Date_Control" xml:space="preserve">
+    <value>Bitiş tarihi ileri tarih olmalıdır !</value>
+  </data>
+  <data name="Classroom_Student_End_Date_Not_Empty" xml:space="preserve">
+    <value>Bitiş tarihi alanı boş bırakılamaz !</value>
+  </data>
+  <data name="Classroom_Student_Has_Not_Found" xml:space="preserve">
+    <value>Bu sınıftaki öğrenci bulunamadı !</value>
+  </data>
+  <data name="Classroom_Student_Id_Not_Empty" xml:space="preserve">
+    <value>ID Boş Olamaz !</value>
+  </data>
+  <data name="Classroom_Student_Start_Date_First_Control" xml:space="preserve">
+    <value>Başlangıç tarihi ileri tarih olmalıdır !</value>
+  </data>
+  <data name="Classroom_Student_Start_Date_Not_Empty" xml:space="preserve">
+    <value>Başlangıç tarihi alanı boş bırakılamaz !</value>
+  </data>
+  <data name="Classroom_Student_Start_Date_Second_Control" xml:space="preserve">
+    <value>Başlangıç tarihi bitiş tarihinden sonra olamaz !</value>
+  </data>
+  <data name="Classroom_Student_Student_Id_Not_Empty" xml:space="preserve">
+    <value>Öğrenci alanı boş bırakılamaz !</value>
+  </data>
+  <data name="Classroom_Trainers_Has_Not_Found" xml:space="preserve">
+    <value>Eğitmen bulunamadı !</value>
+  </data>
+  <data name="Classroom_Trainer_Classroom_Id_Not_Empty" xml:space="preserve">
+    <value>Sınıf Id'si boş bırakılamaz !</value>
+  </data>
+  <data name="Classroom_Trainer_End_Date_Control" xml:space="preserve">
+    <value>Bitiş tarihi ileri tarih olmalıdır !</value>
+  </data>
+  <data name="Classroom_Trainer_End_Date_Not_Empty" xml:space="preserve">
+    <value>Bitiş tarihi alanı boş bırakılamaz !</value>
+  </data>
+  <data name="Classroom_Trainer_Id_Not_Empty" xml:space="preserve">
+    <value>ID Boş Olamaz !</value>
+  </data>
+  <data name="Classroom_Trainer_Start_Date_Control" xml:space="preserve">
+    <value>Başlangıç tarihi ileri tarih olmalıdır !</value>
+  </data>
+  <data name="Classroom_Trainer_Start_Date_Not_Empty" xml:space="preserve">
+    <value>Başlangıç tarihi alanı boş bırakılamaz !</value>
+  </data>
+  <data name="Classroom_Trainer_Trainer_Id_Not_Empty" xml:space="preserve">
+    <value>Eğitmen Id'si boş bırakılamaz !</value>
+  </data>
+  <data name="Comment_Adding_Has_Succeed" xml:space="preserve">
+    <value>Yorum başarıyla eklendi !</value>
+  </data>
+  <data name="Comment_Content_Length" xml:space="preserve">
+    <value>Lütfen yorum alanını 2 ile 400 karakter arasında giriniz !</value>
+  </data>
+  <data name="Comment_Content_Not_Null" xml:space="preserve">
+    <value>Yorum alanını girmediniz !</value>
+  </data>
+  <data name="Comment_Has_Not_Found" xml:space="preserve">
+    <value>Yorum bulunamadı !</value>
+  </data>
+  <data name="Comment_Item_Type_Control" xml:space="preserve">
+    <value>Yorum yapılan nesne tipini (1 = Student, 2 = HomeWork, 3 = SupplementaryResource) olacak şekilde yeniden giriniz !</value>
+  </data>
+  <data name="Comment_Item_Type_Not_Null" xml:space="preserve">
+    <value>Yorum yapılan nesne tipini giriniz !</value>
+  </data>
+  <data name="Comment_Title_Length" xml:space="preserve">
+    <value>Lütfen yorum konusu alanını 2 ile 100 karakter arasında giriniz !</value>
+  </data>
+  <data name="Comment_Title_Not_Null" xml:space="preserve">
+    <value>Yorum konusu alanını girmediniz !</value>
+  </data>
+  <data name="Comment_User_Id_Not_Null" xml:space="preserve">
+    <value>Yorum yapan kullanıcıyı giriniz !</value>
+  </data>
+  <data name="Country_Code_Error" xml:space="preserve">
+    <value>Ülke kodu hatalı !</value>
+  </data>
+  <data name="Deleting_Failed" xml:space="preserve">
+    <value>Silme başarısız !</value>
+  </data>
+  <data name="Deleting_Succeed" xml:space="preserve">
+    <value>Silme başarılı !</value>
+  </data>
+  <data name="Education_Already_Exists" xml:space="preserve">
+    <value>Bu eğitim zaten mevcut !</value>
+  </data>
+  <data name="Education_Category_Id_Not_Null" xml:space="preserve">
+    <value>CategoryId boş olamaz !</value>
+  </data>
+  <data name="Education_Course_Hours_Control" xml:space="preserve">
+    <value>Eğitim saati 1 ile 1000 arasında olmalıdır !</value>
+  </data>
+  <data name="Education_Course_Hours_Not_Empty" xml:space="preserve">
+    <value>Eğitim saati boş olamaz !</value>
+  </data>
+  <data name="Education_Description_Length" xml:space="preserve">
+    <value>Lütfen açıklamayı 1 ile 1200 karakter arasında giriniz !</value>
+  </data>
+  <data name="Education_Description_Not_Empty" xml:space="preserve">
+    <value>Eğitim açıklaması boş olamaz !</value>
+  </data>
+  <data name="Education_Has_Classrooms" xml:space="preserve">
+    <value>İçinde en az bir aktif bulunan eğitimler silinemez !</value>
+  </data>
+  <data name="Education_Name_Length" xml:space="preserve">
+    <value>Lütfen eğitim adını 2 ile 50 karakter arasında giriniz !</value>
+  </data>
+  <data name="Education_Name_Not_Empty" xml:space="preserve">
+    <value>Eğitim adı boş olamaz !</value>
+  </data>
+  <data name="Education_Subject_Already_Exists" xml:space="preserve">
+    <value>Bu eğitim konusu zaten mevcut !</value>
+  </data>
+  <data name="Education_Subject_List_Has_Not" xml:space="preserve">
+    <value>Eğitimle ilgili konular bulunamadı !</value>
+  </data>
+  <data name="Education_Subject_Was_Not_Found" xml:space="preserve">
+    <value>Eğitim konusu bulunamadı !</value>
+  </data>
+  <data name="Education_Was_Not_Found" xml:space="preserve">
+    <value>Eğitim bulunamadı !</value>
+  </data>
+  <data name="Feedback_Succeeded" xml:space="preserve">
+    <value>Geri bildirim işlemi başarılı !</value>
+  </data>
+  <data name="Found_Success" xml:space="preserve">
+    <value>Bulundu !</value>
+  </data>
+  <data name="Homework_Can_Not_Be_Submitted" xml:space="preserve">
+    <value>Ödev teslim tarihi geçti !</value>
+  </data>
+  <data name="Homework_Comment_Adding_Has_Succed" xml:space="preserve">
+    <value>Ödev yorumu başarıyla eklendi !</value>
+  </data>
+  <data name="HomeWork_End_Date_Control" xml:space="preserve">
+    <value>Gelecek bir tarih giriniz !</value>
+  </data>
+  <data name="HomeWork_End_Date_Not_Empty" xml:space="preserve">
+    <value>Ödev bitis tarihini girmediniz !</value>
+  </data>
+  <data name="Homework_Has_Not_Found" xml:space="preserve">
+    <value>Ödev bulunamadı !</value>
+  </data>
+  <data name="HomeWork_Intructions_Length" xml:space="preserve">
+    <value>Lütfen Ödev adını 2 ile 100 karakter arasında giriniz !</value>
+  </data>
+  <data name="HomeWork_Is_Has_Point_Not_Null" xml:space="preserve">
+    <value>Lütfen ödevin puanlandırılma durumunu seçiniz !</value>
+  </data>
+  <data name="HomeWork_Is_Late_Turned_In_Not_Null" xml:space="preserve">
+    <value>Lütfen ödevin geç teslim edilme/edilmeme kuralını belirtiniz !</value>
+  </data>
+  <data name="Homework_Not_Yet_Submitted" xml:space="preserve">
+    <value>Ödev henüz teslim edilmedi !</value>
+  </data>
+  <data name="HomeWork_Referance_File_Size_Control" xml:space="preserve">
+    <value>10 MB sınırını aştınız !</value>
+  </data>
+  <data name="HomeWork_Start_Date_First_Control" xml:space="preserve">
+    <value>Geçmiş tarihler kabul edilmiyor !</value>
+  </data>
+  <data name="HomeWork_Start_Date_Not_Empty" xml:space="preserve">
+    <value>Ödev baslangic tarihini girmediniz !</value>
+  </data>
+  <data name="HomeWork_Start_Date_Second_Control" xml:space="preserve">
+    <value>Ödev başlangıç tarihi bitiş tarihinden büyük olamaz !</value>
+  </data>
+  <data name="Homework_Subject_Has_Not_Found" xml:space="preserve">
+    <value>Ödev konusu bulunamadı !</value>
+  </data>
+  <data name="HomeWork_Subject_Id_Not_Null" xml:space="preserve">
+    <value>Ödev konusu boş olamaz !</value>
+  </data>
+  <data name="HomeWork_Title_Length" xml:space="preserve">
+    <value>Lütfen Ödev adını 2 ile 128 karakter arasında giriniz !</value>
+  </data>
+  <data name="HomeWork_Title_Not_Empty" xml:space="preserve">
+    <value>Ödev başlığı boş olamaz !</value>
+  </data>
+  <data name="Homework_Update_Has_Not_Found" xml:space="preserve">
+    <value>Ödev güncellemesi bulunamadı !</value>
+  </data>
+  <data name="Incorrect_Operation" xml:space="preserve">
+    <value>İşlem yanlış !</value>
+  </data>
+  <data name="ItemId_Has_Not_Found" xml:space="preserve">
+    <value>ItemID bulunamadı !</value>
+  </data>
+  <data name="Item_Type_Is_Not_Correct" xml:space="preserve">
+    <value>Öğe türü doğru değil !</value>
+  </data>
+  <data name="Listed_Fail" xml:space="preserve">
+    <value>Listelenemedi !</value>
+  </data>
+  <data name="Listed_Success" xml:space="preserve">
+    <value>Listelendi !</value>
+  </data>
+  <data name="List_Has_No_Elements" xml:space="preserve">
+    <value>Listede element mevcut değil !</value>
+  </data>
+  <data name="Login_Email_Control" xml:space="preserve">
+    <value>Lütfen geçerli bir e-mail adresi giriniz !</value>
+  </data>
+  <data name="Login_Email_Not_Empty" xml:space="preserve">
+    <value>Mail adresi girmelisiniz !</value>
+  </data>
+  <data name="Login_Password_Not_Empty" xml:space="preserve">
+    <value>Şifre girmelisiniz !</value>
+  </data>
+  <data name="No_File_Uploaded_To_The_Homework" xml:space="preserve">
+    <value>Ödev için dosya yüklenmemiştir !</value>
+  </data>
+  <data name="Old_Password_Is_Incorrect" xml:space="preserve">
+    <value>Eski şifreniz yanlış !</value>
+  </data>
+  <data name="ParentCategoryId_Has_Not_Found" xml:space="preserve">
+    <value>Kategori boş olamaz !</value>
+  </data>
+  <data name="Passwords_Do_Not_Match" xml:space="preserve">
+    <value>Şifreler eşleşmiyor !</value>
+  </data>
+  <data name="Password_Has_Changed_Successfully" xml:space="preserve">
+    <value>Şifre Başarıyla Değişti !</value>
+  </data>
+  <data name="Password_Match_Fail" xml:space="preserve">
+    <value>Parolalar Eşleşmiyor !</value>
+  </data>
+  <data name="Password_Reset_Successfully_And_New_Password_Has_Send_To_Your_Email" xml:space="preserve">
+    <value>Şifre Başarıyla Sıfırlandı ve Yeni Şifre E-Mail Adresinize Gönderildi !</value>
+  </data>
+  <data name="Phone_Number_Error" xml:space="preserve">
+    <value>Telefon numarası hatalı !</value>
+  </data>
+  <data name="Reset_Password_Email_Control" xml:space="preserve">
+    <value>Lütfen geçerli bir e-mail adresi giriniz !</value>
+  </data>
+  <data name="Reset_Password_Email_Not_Empty" xml:space="preserve">
+    <value>Mail adresi girmelisiniz !</value>
+  </data>
+  <data name="Reset_Password_Fail" xml:space="preserve">
+    <value>Parola yenileme başarısız !</value>
+  </data>
+  <data name="Resource_Tag_Has_Not_Found" xml:space="preserve">
+    <value>Kaynak etiketi bulunamadı !</value>
+  </data>
+  <data name="Response_Success" xml:space="preserve">
+    <value>Yanıtınız başarıyla eklendi!</value>
+  </data>
+  <data name="RoleLog_Has_Not_Found" xml:space="preserve">
+    <value>RoleLog bulunamadı !</value>
+  </data>
+  <data name="Same_Email_Address_Has_Already_Used" xml:space="preserve">
+    <value>Sisteme kayıtlı bir e-mail adresi girdiniz !</value>
+  </data>
+  <data name="StudentHomework_Feedback_Id_Not_Null" xml:space="preserve">
+    <value>Bir öğrenci ödev numarası girmelisiniz !</value>
+  </data>
+  <data name="Student_Active_Description_Max_Length" xml:space="preserve">
+    <value>Açıklama 256 Karakterden Fazla Olamaz !</value>
+  </data>
+  <data name="Student_Active_Description_Min_Length" xml:space="preserve">
+    <value>Açıklama 2 Karakterden Az Olamaz !</value>
+  </data>
+  <data name="Student_Active_Description_Not_Empty" xml:space="preserve">
+    <value>Açıklama Alanı Boş Geçilemez !</value>
+  </data>
+  <data name="Student_Active_Id_Not_Empty" xml:space="preserve">
+    <value>ID Alanı Boş Geçilemez !</value>
+  </data>
+  <data name="Student_Activity_Status_Has_Not_Changed" xml:space="preserve">
+    <value>Öğrenci aktivite durumu değişmedi !</value>
+  </data>
+  <data name="Student_Already_Exists" xml:space="preserve">
+    <value>Öğrenci zaten var!</value>
+  </data>
+  <data name="Student_Already_Exists_In_Classroom" xml:space="preserve">
+    <value>Bu öğrenci zaten sınıfa kayıtlı !</value>
+  </data>
+  <data name="Student_Already_Exists_In_Homework" xml:space="preserve">
+    <value>Öğrenci ödevde zaten mevcut !</value>
+  </data>
+  <data name="Student_Comment_Add_Success" xml:space="preserve">
+    <value>Öğrenci yorumu başarıyla eklendi !</value>
+  </data>
+  <data name="Student_Country_Control" xml:space="preserve">
+    <value>Ülke Kodu hatalı girildi !</value>
+  </data>
+  <data name="Student_Country_Length" xml:space="preserve">
+    <value>Ülke Kodu en fazla 2 haneli olabilir !</value>
+  </data>
+  <data name="Student_Date_Of_Birth_Control" xml:space="preserve">
+    <value>Kayıt Yapmak İçin 18 Yaşından Büyük veya 65 Yaşından Küçük Olmalısınız !</value>
+  </data>
+  <data name="Student_Email_Control" xml:space="preserve">
+    <value>Lütfen geçerli bir e-mail adresi giriniz !</value>
+  </data>
+  <data name="Student_Email_Not_Empty" xml:space="preserve">
+    <value>Mail adresi girmelisiniz !</value>
+  </data>
+  <data name="Student_FirstName_Matches" xml:space="preserve">
+    <value>Adınız Sadece Harflerden Oluşmalıdır!</value>
+  </data>
+  <data name="Student_FirstName_Max_Length" xml:space="preserve">
+    <value>Adınız 50 Karakterden Fazla Olamaz !</value>
+  </data>
+  <data name="Student_FirstName_Min_Length" xml:space="preserve">
+    <value>Adınız 2 Karakterden Az Olamaz !</value>
+  </data>
+  <data name="Student_FirstName_Not_Empty" xml:space="preserve">
+    <value>Ad Alanı Boş Geçilemez !</value>
+  </data>
+  <data name="Student_HomeWork_HomeWork_Id_Not_Null" xml:space="preserve">
+    <value>Bir ödev numarası girmelisiniz !</value>
+  </data>
+  <data name="Student_HomeWork_Homework_State_Not_Null" xml:space="preserve">
+    <value>Bir ödev durumu belirtmelisiniz !</value>
+  </data>
+  <data name="Student_HomeWork_Id_Not_Null" xml:space="preserve">
+    <value>Bir öğrenci ödev numarası girmelisiniz !</value>
+  </data>
+  <data name="Student_HomeWork_Point_Control" xml:space="preserve">
+    <value>Ödev puanı 0 ile 100 arasında olmalıdır !</value>
+  </data>
+  <data name="Student_HomeWork_Point_Id_Not_Null" xml:space="preserve">
+    <value>Bir öğrenci ödev numarası girmelisiniz !</value>
+  </data>
+  <data name="Student_HomeWork_Point_Point_Not_Null" xml:space="preserve">
+    <value>Bir ödev puanı girmelisiniz !</value>
+  </data>
+  <data name="Student_HomeWork_Student_Attached_File_Not_Empty" xml:space="preserve">
+    <value>Dosya yükleme zorunludur !</value>
+  </data>
+  <data name="Student_HomeWork_Student_Attached_File_Size_Control" xml:space="preserve">
+    <value>10 MB sınırını aştınız !</value>
+  </data>
+  <data name="Student_HomeWork_Student_Id_Not_Empty" xml:space="preserve">
+    <value>Bir öğrenci ödev numarası girmelisiniz !</value>
+  </data>
+  <data name="Student_HomeWork_Student_Id_Not_Null" xml:space="preserve">
+    <value>Bir öğrenci numarası girmelisiniz !</value>
+  </data>
+  <data name="Student_HomeWork_Trainer_Attached_File_Size_Control" xml:space="preserve">
+    <value>10 MB sınırını aştınız !</value>
+  </data>
+  <data name="Student_HomeWork_Trainer_HomeWork_Id_Not_Null" xml:space="preserve">
+    <value>Bir ödev numarası girmelisiniz !</value>
+  </data>
+  <data name="Student_HomeWork_Trainer_Id_Not_Null" xml:space="preserve">
+    <value>Bir öğrenci ödev numarası girmelisiniz !</value>
+  </data>
+  <data name="Student_HomeWork_Trainer_Point_Control" xml:space="preserve">
+    <value>Ödev puanı 0 ile 100 arasında olmalıdır !</value>
+  </data>
+  <data name="Student_HomeWork_Trainer_Student_Id_Not_Null" xml:space="preserve">
+    <value>Bir öğrenci numarası girmelisiniz !</value>
+  </data>
+  <data name="Student_LastName_Matches" xml:space="preserve">
+    <value>Soyad Sadece Harflerden Oluşmalıdır !</value>
+  </data>
+  <data name="Student_LastName_Max_Length" xml:space="preserve">
+    <value>Soyad 50 Karakterden Fazla Olamaz !</value>
+  </data>
+  <data name="Student_LastName_Min_Length" xml:space="preserve">
+    <value>Soyad 2 Karakterden Az Olamaz !</value>
+  </data>
+  <data name="Student_LastName_Not_Empty" xml:space="preserve">
+    <value>Soyad Alanı Boş Geçilemez !</value>
+  </data>
+  <data name="Student_Not_Active" xml:space="preserve">
+    <value>Öğrenci aktif değil !</value>
+  </data>
+  <data name="Student_Not_Found" xml:space="preserve">
+    <value>Öğrenci bulunamadı !</value>
+  </data>
+  <data name="Student_Phone_Number_Length" xml:space="preserve">
+    <value>Lütfen en az 7 haneli bir telefon numarası giriniz !</value>
+  </data>
+  <data name="Student_Phone_Number_Matches" xml:space="preserve">
+    <value>Lütfen doğru bir telefon numarası giriniz !</value>
+  </data>
+  <data name="SubCategories_Found" xml:space="preserve">
+    <value>Bu kategori, alt kategoriler içermektedir ! </value>
+  </data>
+  <data name="SubCategories_Not_Found" xml:space="preserve">
+    <value>Alt kategori bulunamadı !</value>
+  </data>
+  <data name="SubCategory_Empty" xml:space="preserve">
+    <value>Alt kategori adı boş olamaz !</value>
+  </data>
+  <data name="SubCategory_Length" xml:space="preserve">
+    <value>Alt kategori 2 ile 35 karakter arasında olmalıdır !</value>
+  </data>
+  <data name="SubCategory_Matches" xml:space="preserve">
+    <value>Lütfen özel karakterler girmeyin !</value>
+  </data>
+  <data name="Subject_Already_Exists" xml:space="preserve">
+    <value>Bu konu zaten mevcut !</value>
+  </data>
+  <data name="Subject_Has_Not_Found" xml:space="preserve">
+    <value>Konu bulunamadı !</value>
+  </data>
+  <data name="Subject_Name_Length" xml:space="preserve">
+    <value>Lütfen isim alanını 2 ile 128 karakter arasında giriniz !</value>
+  </data>
+  <data name="Subject_Name_Matches" xml:space="preserve">
+    <value>Lütfen özel karakterler kullanmayınız !</value>
+  </data>
+  <data name="Subject_Name_Not_Empty" xml:space="preserve">
+    <value>Konu adını girmediniz !</value>
+  </data>
+  <data name="SupplementaryResource_Comment_Add_Success" xml:space="preserve">
+    <value>Yardımcı kaynak yorumu başarıyla eklendi !</value>
+  </data>
+  <data name="SupplementaryResource_File_URL_Not_Empty" xml:space="preserve">
+    <value>Yardımcı kaynak için kaynak yolu bilgisi girmediniz !</value>
+  </data>
+  <data name="SupplementaryResource_Id_Not_Empty" xml:space="preserve">
+    <value>Id alanı boş bırakılamaz !</value>
+  </data>
+  <data name="SupplementaryResource_Name_Not_Empty" xml:space="preserve">
+    <value>Yardımcı kaynak adını girmediniz !</value>
+  </data>
+  <data name="SupplementaryResource_Resource_Type_Control" xml:space="preserve">
+    <value>Kaynak tipi 1 (document) veya 2 (video) olmalıdır !</value>
+  </data>
+  <data name="SupplementaryResource_SupplementaryResource_Id_Not_Empty" xml:space="preserve">
+    <value>Yardımcı kaynak alanı boş bırakılamaz !</value>
+  </data>
+  <data name="SupplementaryResource_Tags_Not_Null" xml:space="preserve">
+    <value>Yardımcı kaynak için etiket bilgisi girmediniz !</value>
+  </data>
+  <data name="SupplementaryResource_Tag_Id_Not_Empty" xml:space="preserve">
+    <value>Etiket alanı boş bırakılamaz !</value>
+  </data>
+  <data name="Supplementary_Resource_Already_Exists" xml:space="preserve">
+    <value>Yardımcı kaynak zaten mevcut !</value>
+  </data>
+  <data name="Supplementary_Resource_Has_Not_Found" xml:space="preserve">
+    <value>Yardımcı kaynak bulunamadı !</value>
+  </data>
+  <data name="Supplementary_Resource_Tag_Has_Not_Found" xml:space="preserve">
+    <value>Yardımcı kaynak etiketi bulunamadı !</value>
+  </data>
+  <data name="Tag_IsNot_Found" xml:space="preserve">
+    <value>Etiket bulunamadı !</value>
+  </data>
+  <data name="Tag_Name_Already_Exists" xml:space="preserve">
+    <value>Etiket ismi zaten mevcut !</value>
+  </data>
+  <data name="Tag_Name_Length" xml:space="preserve">
+    <value>Lütfen etiket adı alanını 1 ile 128 karakter arasında giriniz !</value>
+  </data>
+  <data name="Tag_Name_Not_Empty" xml:space="preserve">
+    <value>Etiket adını girmediniz !</value>
+  </data>
+  <data name="Tag_Name_Not_Matches" xml:space="preserve">
+    <value>Lütfen özel karakterler kullanmayınız !</value>
+  </data>
+  <data name="Tag_Not_Found" xml:space="preserve">
+    <value>Etiket bulunamadı !</value>
+  </data>
+  <data name="Technical_Units_Already_Exists" xml:space="preserve">
+    <value>Bu teknik birim zaten mevcut !</value>
+  </data>
+  <data name="Technical_Units_Have_Not_Found" xml:space="preserve">
+    <value>Teknik birim bulunamadı !</value>
+  </data>
+  <data name="Tecnical_Unit_Can_Not_Delete" xml:space="preserve">
+    <value>Teknik Birime ait katagori bulunuyor teknik birimi silemezsiniz</value>
+  </data>
+  <data name="This_Homework_Is_Graded" xml:space="preserve">
+    <value>Bu puanlı bir ödevdir !</value>
+  </data>
+  <data name="Token_Created_Successfully" xml:space="preserve">
+    <value>Token başarıyla oluşturuldu !</value>
+  </data>
+  <data name="Trainer_Activity_Has_Not_Changed" xml:space="preserve">
+    <value>Eğitmen aktivitesi değişmedi !</value>
+  </data>
+  <data name="Trainer_Already_Exists" xml:space="preserve">
+    <value>Bu eğitmen zaten mevcut !</value>
+  </data>
+  <data name="Trainer_Already_Exists_In_Classroom" xml:space="preserve">
+    <value>Bu Sınıfa Kayıtlı Bir Eğitmen Girdiniz!</value>
+  </data>
+  <data name="Trainer_And_Student_Cannot_Be_The_Same_Person" xml:space="preserve">
+    <value>Eğitmen ve öğrenciyi aynı sınıfa ekleyemezsiniz!</value>
+  </data>
+  <data name="Trainer_Country_Control" xml:space="preserve">
+    <value>Ülke Kodu hatalı girildi !</value>
+  </data>
+  <data name="Trainer_Country_Max_Length" xml:space="preserve">
+    <value>Ülke Kodu en fazla 2 haneli olabilir !</value>
+  </data>
+  <data name="Trainer_Date_Of_Birth_Control" xml:space="preserve">
+    <value>Kayıt Yapmak İçin 18 Yaşından Büyük veya 65 Yaşından Küçük Olmalısınız !</value>
+  </data>
+  <data name="Trainer_Email_Control" xml:space="preserve">
+    <value>Lütfen geçerli bir e-mail adresi giriniz !</value>
+  </data>
+  <data name="Trainer_Email_Not_Empty" xml:space="preserve">
+    <value>Mail adresi girmelisiniz !</value>
+  </data>
+  <data name="Trainer_FirstName_Matches" xml:space="preserve">
+    <value>Adınız Sadece Harflerden Oluşmalıdır !</value>
+  </data>
+  <data name="Trainer_FirstName_MaxLength" xml:space="preserve">
+    <value>Adınız 50 Karakterden Fazla Olamaz !</value>
+  </data>
+  <data name="Trainer_FirstName_MinLength" xml:space="preserve">
+    <value>Adınız 2 Karakterden Az Olamaz !</value>
+  </data>
+  <data name="Trainer_FirstName_Not_Empty" xml:space="preserve">
+    <value>Ad Alanı Boş Geçilemez !</value>
+  </data>
+  <data name="Trainer_Has_Not_Found" xml:space="preserve">
+    <value>Eğitmen bulunamadı !</value>
+  </data>
+  <data name="Trainer_Is_Not_Active" xml:space="preserve">
+    <value>Eğitmen aktif değil !</value>
+  </data>
+  <data name="Trainer_LastName_Matches" xml:space="preserve">
+    <value>Soyad Sadece Harflerden Oluşmalıdır !</value>
+  </data>
+  <data name="Trainer_LastName_MaxLength" xml:space="preserve">
+    <value>Soyad 50 Karakterden Fazla Olamaz !</value>
+  </data>
+  <data name="Trainer_LastName_MinLength" xml:space="preserve">
+    <value>Soyad 2 Karakterden Az Olamaz !</value>
+  </data>
+  <data name="Trainer_LastName_Not_Empty" xml:space="preserve">
+    <value>Soyad Alanı Boş Geçilemez !</value>
+  </data>
+  <data name="Trainer_Phone_Number_Matches" xml:space="preserve">
+    <value>Lütfen doğru bir telefon numarası giriniz !</value>
+  </data>
+  <data name="Trainer_Phone_Number_Min_Length" xml:space="preserve">
+    <value>Lütfen en az 7 haneli bir telefon numarası giriniz !</value>
+  </data>
+  <data name="TUnits_Name_Length" xml:space="preserve">
+    <value>Lütfen teknik birim alanını 2 ile 35 karakter arasında giriniz !</value>
+  </data>
+  <data name="TUnits_Name_Not_Empty" xml:space="preserve">
+    <value>Teknik birim adını girmediniz !</value>
+  </data>
+  <data name="Update_Fail" xml:space="preserve">
+    <value>Güncelleme başarısız !</value>
+  </data>
+  <data name="Update_Success" xml:space="preserve">
+    <value>Güncelleme başarılı !</value>
+  </data>
+  <data name="User_Details_View_Success" xml:space="preserve">
+    <value>Kullanıcı Bilgileri Görüntüleme Başarılı ! !</value>
+  </data>
+  <data name="Username_Or_Password_Is_Wrong" xml:space="preserve">
+    <value>Kullanıcı adı veya şifre hatalı !</value>
+  </data>
+  <data name="UserPasswords_Has_Not_Found" xml:space="preserve">
+    <value>UserPasswords bulunamadı !</value>
+  </data>
+  <data name="User_Has_Not_Found" xml:space="preserve">
+    <value>Kullanıcı bulunamadı !</value>
+  </data>
+  <data name="Sub_Category_Can_Not_Delete" xml:space="preserve">
+    <value>Alt kategoriye ait Eğitim bulunuyor. Alt kategoriyi silemezsiniz!</value>
+  </data>
+  <data name="Training_Type_Name_Invalid" xml:space="preserve">
+    <value>Eğitim Tipi Sayı ve Özel Karakter İçeremez !</value>
+  </data>
+  <data name="Training_Type_Name_Length" xml:space="preserve">
+    <value>Eğitim Tipi En Az 2 En Fazla 35 Karakterden Oluşmalıdır !</value>
+  </data>
+  <data name="Training_Type_Name_Not_Empty" xml:space="preserve">
+    <value>Eğitim Tipi Boş Geçilemez</value>
+  </data>
+  <data name="Branch_Name_Invalid" xml:space="preserve">
+    <value>Şube Adı Sayı ve Özel Karakter İçeremez !</value>
+  </data>
+  <data name="Branch_Name_Length" xml:space="preserve">
+    <value>Şube Adı En Az 2 En Fazla 35 Karakterden Oluşmalıdır !</value>
+  </data>
+  <data name="Branch_Name_Not_Empty" xml:space="preserve">
+    <value>Şube Adı Boş Geçilemez !</value>
+  </data>
+  <data name="Group_Type_Name_Invalid" xml:space="preserve">
+    <value>Lütfen özel karakter kullanmayınız  !</value>
+  </data>
+  <data name="Group_Type_Name_Length" xml:space="preserve">
+    <value>Grup tipi alanını 2 ile 35 karakter arasında giriniz !</value>
+  </data>
+  <data name="Group_Type_Name_Not_Empty" xml:space="preserve">
+    <value>Grup tipi alanı boş geçilemez !</value>
+  </data>
+  <data name="Video_Duration_Is_Not_Valid" xml:space="preserve">
+    <value>Video süresi sınırı aşamaz !</value>
+  </data>
+  <data name="Video_Size_Is_Not_Valid" xml:space="preserve">
+    <value>Video boyutu sınırı aşamaz !</value>
+  </data>
+  <data name="File_Could_Not_Be_Recovered" xml:space="preserve">
+    <value>Dosya kurtarılamadı !</value>
+  </data>
+  <data name="Non_Existent_Directory" xml:space="preserve">
+    <value>Dosya yolu bulunamadı !</value>
+  </data>
+  <data name="Supplementary_Resource_Educations_Not_Null" xml:space="preserve">
+    <value>Yardımcı kaynak için eğitim bilgisi girmediniz !</value>
+  </data>
+  <data name="Supplementary_Resource_Name_Length" xml:space="preserve">
+    <value>Kaynak Adı En Az 2 En Fazla 128 Karakterden Oluşmalıdır !</value>
+  </data>
+  <data name="Supplementary_Resource_Subjects_Not_Null" xml:space="preserve">
+    <value>Yardımcı kaynak için konu bilgisi girmediniz !</value>
+  </data>
+  <data name="Link_Format_Fail" xml:space="preserve">
+    <value>Girilen link geçerli formatta değildir!</value>
+  </data>
+  <data name="Admin_Address_Length" xml:space="preserve">
+    <value>Lütfen adres alanını 2 ile 256 karakter arasında giriniz !</value>
+  </data>
+  <data name="Admin_Address_Not_Null" xml:space="preserve">
+    <value>Adres alanını girmediniz !</value>
+  </data>
+  <data name="Student_Address_Length" xml:space="preserve">
+    <value>Lütfen adres alanını 2 ile 256 karakter arasında giriniz !</value>
+  </data>
+  <data name="Student_Address_Not_Null" xml:space="preserve">
+    <value>Adres alanını girmediniz !</value>
+  </data>
+  <data name="Trainer_Address_Length" xml:space="preserve">
+    <value>Lütfen adres alanını 2 ile 256 karakter arasında giriniz !</value>
+  </data>
+  <data name="Trainer_Address_Not_Null" xml:space="preserve">
+    <value>Adres alanını girmediniz !</value>
+  </data>
+</root>

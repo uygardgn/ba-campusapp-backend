@@ -1,0 +1,10 @@
+﻿global using BACampusApp.Core.DataAccess.Interfaces;
+global using BACampusApp.Core.Entities.Base;
+global using BACampusApp.Core.Enums;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Storage;
+global using System.Linq.Expressions;
+global using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+global using BACampusApp.Entities.Enums;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.AspNetCore.StaticFiles;
